@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    background-color: aliceblue;
+    font-size: 16px;
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+}
+
+.top {
+    width: 1140px;
+    margin: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.MFSTop {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.TopTitle h4 {
+    font-size: 28px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #ff5200;
+    margin: 0px 450px;
+    padding-bottom: 8px;
+}
+
+#press {
+    display: none;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+
+#press button {
+    font-family: 'Oswald', sans-serif;
+    font-size: larger;
+    text-transform: uppercase;
+    color: white;
+    background: #fb5200;
+    padding: 15px 26px;
+    font-weight: 500;
+    border-radius: 3px;
+    cursor: pointer;
+    /* text-decoration: none; */
+}
+
+#press button:hover {
+    background: black;
+    transition: 0.4s;
+}
+
+#container {
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 25px;
+    padding-left: 15px;
+    padding-bottom: 100px;
+
+}
+
+.foodCard {
+    /* float: left; */
+    border: 1px solid #f1c1c1;
+    padding: 50px 35px;
+    margin-left: 30px;
+    margin-right: 5px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    box-shadow: -10px 12px 12px 9px #dd9797;
+    align-items: center;
+    cursor: pointer;
+}
+
+.foodCard:hover {
+    transition: 0.4s;
+    transform: scale(1.07);
+
+}
+
+.foodImg {
+    align-items: center;
+    /* outline: 2px solid rgb(0, 2, 0); */
+}
+
+.foodImg img {
+    width: 220px;
+    height: 220px;
+    outline: 2px solid rgb(48, 66, 48);
+}
+
+.foodImg img:hover {
+    transition: 0.8s;
+    transform: rotateY(360deg);
+}
+
+.foodDetails {
+    margin-top: 50px;
+    text-align: left;
+}
+
+.ChunkDataName {
+    font-size: 22px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #ff5200;
+    margin-bottom: 12px;
+}
+
+.ChunkDataName:hover {
+    transition: 0.2s;
+    color: violet;
+}
+
+.ChunkData {
+    color: #8b3f3f;
+    font-family: 'Oswald', sans-serif;
+}
+
+#finish {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#finish h1 {
+    margin-top: -100px;
+    margin-bottom: 30px;
+    border-bottom: 3px solid #ff5200;
+}
+
+#goToFood {
+    margin-top: 30px;
+    margin-bottom: -12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#goToFood a {
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    color: white;
+    background: #fb5200;
+    padding: 15px 26px;
+    font-weight: 500;
+    border-radius: 3px;
+}
+
+#goToFood a:hover {
+    background: black;
+    transition: 0.4s;
+}
+
+.foodInfo {
+    border: 1px solid #f1c1c1;
+    padding: 50px 35px;
+    margin-left: 30px;
+    margin-right: 5px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    box-shadow: -10px 12px 12px 9px #dd9797;
+    align-items: center;
+    cursor: pointer;
+    display: none;               /*    <-------------    */
+}
+
+.foodInfo img {
+    width: 220px;
+    height: 220px;
+    outline: 2px solid rgb(48, 66, 48);
+}
+
+.foodInfo img:hover {
+    transition: 0.8s;
+    transform: rotateY(360deg);
+}
+
+
+.foodInfo h1 {
+    font-size: 22px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #ff5200;
+    margin-bottom: 12px;
+}
+
+.foodInfo h1:hover {
+    transition: 0.2s;
+    color: violet;
+}
+
+.foodInfo p {
+        color: #8b3f3f;
+        font-family: 'Oswald', sans-serif;
+}
+
+.foodInfo a {
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    color: white;
+    background: #fb5200;
+    padding: 15px 26px;
+    margin-top: 20px;
+    font-weight: 500;
+    border-radius: 3px;
+}
+
+.foodInfo a:hover {
+    background: black;
+    transition: 0.4s;
+}
+
+.foodInfoLinks{
+    margin-top: 44px;
+}
+
+.ingredients{
+    font-size: 18px;
+    margin-left: 30px;
+}
+
+/* ---------NEW-------- */
+
+.findMe {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.findMe input {
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    padding-left: 12px;
+}
+
+.findMe button {
+    font-size: larger;
+    text-transform: capitalize;
+    background-color: white;
+    border: 1px solid gray;
+    width: 95px;
+}
+
+.findMe button:hover {
+    background-color: #fb5200;
+    cursor: pointer;
+    color: white;
+}
+
+
+#noItemFound {
+    display: none;
+    justify-content: center;
+}
+
+#noItemFound h2 {
+    color: #727272;
+    font-size: 20px;
+    border-bottom: 2px solid #ff5200;
+}
+
+/* ---------NEW-------- */
